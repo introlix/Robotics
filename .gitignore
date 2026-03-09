@@ -1,0 +1,16 @@
+# ROS2 Build Artifacts (Specific to the workspace)
+ros2_jazzy_ws/build/
+ros2_jazzy_ws/install/
+ros2_jazzy_ws/log/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: If you use VS Code, ignore its local settings
+.vscode/
