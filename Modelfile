@@ -1,0 +1,2 @@
+FROM /home/introlix/.cache/huggingface/hub/models--unsloth--gemma-4-e2b-it-gguf/snapshots/e18a8a48038a5da3e89c1152441ab57546a70873/gemma-4-E2B-it-Q4_K_M.gguf
+PARAMETER temperature 0.7

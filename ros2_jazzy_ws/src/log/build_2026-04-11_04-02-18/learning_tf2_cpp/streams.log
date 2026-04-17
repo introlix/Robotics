@@ -1,0 +1,71 @@
+[0.019s] Invoking command in '/home/ros_ws/src/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/learning_tf2_py:/opt/ros/jazzy /usr/bin/cmake /home/ros_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ros_ws/src/install/learning_tf2_cpp
+[0.211s] -- The C compiler identification is GNU 13.3.0
+[0.327s] -- The CXX compiler identification is GNU 13.3.0
+[0.355s] -- Detecting C compiler ABI info
+[0.497s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.512s] -- Detecting C compile features - done
+[0.526s] -- Detecting CXX compiler ABI info
+[0.652s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.685s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.697s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.916s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.127s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.225s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.259s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.430s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.560s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.569s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.741s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.767s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.937s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[1.950s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.199s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[2.238s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.426s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.426s] -- Configured cppcheck include dirs: 
+[2.427s] -- Configured cppcheck exclude dirs and/or files: 
+[2.428s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.428s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.430s] -- Added test 'lint_cmake' to check CMake code style
+[2.431s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.434s] -- Added test 'uncrustify' to check C / C++ code style
+[2.434s] -- Configured uncrustify additional arguments: 
+[2.436s] -- Added test 'xmllint' to check XML markup files
+[2.440s] -- Configuring done (2.3s)
+[2.465s] -- Generating done (0.0s)
+[2.470s] -- Build files have been written to: /home/ros_ws/src/build/learning_tf2_cpp
+[2.481s] Invoked command in '/home/ros_ws/src/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/learning_tf2_py:/opt/ros/jazzy /usr/bin/cmake /home/ros_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ros_ws/src/install/learning_tf2_cpp
+[2.482s] Invoking command in '/home/ros_ws/src/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/learning_tf2_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ros_ws/src/build/learning_tf2_cpp -- -j4 -l4
+[2.555s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[11.217s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[11.720s] [100%] Built target turtle_tf2_broadcaster
+[11.733s] Invoked command in '/home/ros_ws/src/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/learning_tf2_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ros_ws/src/build/learning_tf2_cpp -- -j4 -l4
+[11.745s] Invoking command in '/home/ros_ws/src/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/learning_tf2_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ros_ws/src/build/learning_tf2_cpp
+[11.759s] -- Install configuration: ""
+[11.759s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[11.771s] -- Set non-toolchain portion of runtime path of "/home/ros_ws/src/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+[11.771s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[11.772s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py
+[11.772s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[11.773s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[11.773s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[11.773s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[11.773s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[11.773s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[11.774s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[11.774s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[11.774s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[11.774s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[11.775s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[11.775s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[11.776s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[11.776s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[11.776s] -- Installing: /home/ros_ws/src/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[11.777s] Invoked command in '/home/ros_ws/src/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_ws/install/learning_tf2_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ros_ws/src/build/learning_tf2_cpp
